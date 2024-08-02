@@ -1,0 +1,14 @@
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>registerd</title>
+  </head>
+  <body>
+    <h1>仕事内容の文字数：</h1>
+    <ul>
+     {% for i in arr %}
+     <li>求人番号{{ i[0] }}, 仕事内容の文字数{{ i[1] }}, URL{{ i[2] }}</li>
+     {% endfor %}
+    </ul>  
+  </body>
+</html>
